@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* FIXED map behind content */
+#map {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Scenes and cover scroll above map */
+#cover, .scene {
+  position: relative;
+  z-index: 1;                          /* above map */
+  max-width: 600px;
+  margin: 300px auto;                   /* space between scenes */
+  background: rgba(255,255,255,0.9);   /* semi-transparent so map shows behind */
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+#cover {
+  background: url('../img/SpaceNeedle.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+#intro {
+  background: rgba(0,0,0,0.6);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.scene img {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 100%;
+  border-radius: 10px;
+}

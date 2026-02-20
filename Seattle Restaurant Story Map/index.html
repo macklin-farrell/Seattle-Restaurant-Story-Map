@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapping My Favorite Restaurants in Seattle</title>
+
+  <!-- Fonts & Styles -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/scrollama"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+</head>
+
+<body>
+
+  <!-- Cover -->
+  <section id="cover">
+    <div id="intro">
+      <h1>Mapping My Favorite Restaurants in Seattle</h1>
+      <p>A look at where I love to eat and how they are distributed across the city.</p>
+    </div>
+  </section>
+
+  <!-- Map (fixed behind scenes) -->
+  <div id="map"></div>
+
+  <!-- Storyboard / Scenes -->
+  <section id="storyboard">
+
+    <article class="scene" data-scene="0">
+      <h2>Citywide Distribution</h2>
+      <p>These restaurants are some of my favorites in Seattle!</p>
+      <p>I'm so excited to share them with you!</p>
+    </article>
+
+    <article class="scene" data-scene="1">
+      <h2>Restaurant One</h2>
+      <img src="img/BaBar.jpg" width="100%">
+      <p>Vietnamese, U-District, $20-$30</p>
+      <p>Accessible from UW by Bus 75 or 65</p>
+    </article>
+
+    <article class="scene" data-scene="2">
+      <h2>Restaurant Two</h2>
+      <img src="img/Tats.jpg" width="100%">
+      <p>Cheesesteaks, Pioneer Square, $10-$20</p>
+      <p>Accessible from UW by Link Light Rail</p>
+    </article>
+
+    <article class="scene" data-scene="3">
+      <h2>Restaurant Three</h2>
+      <img src="img/TaylorShellfish.jpg" width="100%">
+      <p>Seafood, Capitol Hill, $50-$100</p>
+      <p>Accessible from UW by Link Light Rail and Bus 11</p>
+    </article>
+
+    <article class="scene" data-scene="4">
+      <h2>Restaurant Four</h2>
+      <img src="img/TPK.jpg" width="100%">
+      <p>Cajun and Creole, Queen Anne, $30-$50</p>
+      <p>Accessible from UW by Link Light Rail and Bus 8</p>
+    </article>
+
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

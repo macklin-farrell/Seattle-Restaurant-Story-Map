@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Ba Bar" }, "geometry": { "type": "Point", "coordinates": [-122.29786890087615, 47.66180166284353] } },
+    { "type": "Feature", "properties": { "name": "Tat's Deli" }, "geometry": { "type": "Point", "coordinates": [-122.33156030718999, 47.602270004767384] } },
+    { "type": "Feature", "properties": { "name": "Taylor Shellfish Oyster Bar" }, "geometry": { "type": "Point", "coordinates": [-122.32537381906332, 47.615358375656236] } },
+    { "type": "Feature", "properties": { "name": "Toulouse Petit Kitchen & Lounge" }, "geometry": { "type": "Point", "coordinates": [-122.35647673515153, 47.624891430024775] } }
+  ]
+}
