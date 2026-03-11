@@ -1,9 +1,9 @@
 # Seattle-Restaurant-Story-Map
-An interactive scrollytelling map built with Mapbox GL JS and Scrollama, highlighting my favorite restaurants across Seattle and how to reach them from UW.
+An interactive storymap built with Mapbox GL JS and Scrollama, highlighting my favorite restaurants across Seattle and how to reach them from UW.
 
 ## Features
 
-- **Scrollytelling layout** — the map animates to each restaurant as you scroll through the story
+- **Scrolling layout** — the map animates to each restaurant as you scroll through the story
 - **5 scenes** — citywide overview plus 4 individual restaurant spotlights
 - **Transit info** — each restaurant includes directions from UW by bus or Link Light Rail
 
